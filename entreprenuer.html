@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Business Ideas</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body id="top">
+  <!-- Simple Navbar -->
+  <nav class="simple-navbar">
+    <div class="nav-container">
+      <a href="index.html" class="nav-logo">Jacob Bingham</a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="entreprenuer.html">Business Ideas</a></li>
+        <li><a href="game.html">Game</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="header">
+    <h1>My Business Ideas</h1>
+    <p>
+      Welcome to my page where I share some of my favorite business ideas. 
+      <a href="#video">Jump to the video</a> | 
+      <a href="#tableau">Jump to Tableau Dashboard</a> | 
+      <a href="#game">Jump to Snake Game</a>
+    </p>
+  </div>
+
+  <div class="business-ideas">
+    <ol>
+      <li>
+        AI Productivity App
+        <ul>
+          <li>Gamifies your daily work</li>
+          <li>Tracks screen activity</li>
+          <li>Gives rewards for completed tasks</li>
+        </ul>
+      </li>
+      <li>
+        Airbnb Property Management
+        <ul>
+          <li>Helps hosts automate communication</li>
+          <li>Dynamic pricing for maximized profit</li>
+          <li>Cleaning crew coordination</li>
+        </ul>
+      </li>
+      <li>
+        Cold Plunge & Sauna Center
+        <ul>
+          <li>Located near universities</li>
+          <li>Monthly membership plans</li>
+          <li>Biohacking-inspired wellness</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+
+  <div class="vision">
+    <h2>My Vision</h2>
+    <p>I want to build businesses that solve real problems and bring joy to people. When I come up with a new idea I feel like the kids in this image!</p>
+    <img src="lightbulb.jpeg" alt="Idea Lightbulb">
+  </div>
+
+  <div class="video" id="video">
+    <h2>Inspirational Video</h2>
+    <p>This video talks a bit about how business ideas can be brainstormed!</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mN21YwEZHCo" 
+      title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+      encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+
+  <div class="tableau-section" id="tableau">
+    <h2>My Tableau Dashboard</h2>
+    <p>This dashboard shows precipitation anomalies for Week 12 of 2025:</p>
+
+    <div class='tableauPlaceholder' id='viz1744753075990' style='position: relative'>
+      <noscript>
+        <a href='#'>
+          <img alt='MoM2025W12 ' 
+               src='https://public.tableau.com/static/images/Mo/MoM2025W12-PrecipitationAnomalies/MoM2025W12/1_rss.png' 
+               style='border: none' />
+        </a>
+      </noscript>
+      <object class='tableauViz' style='display:none;'>
+        <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+        <param name='embed_code_version' value='3' />
+        <param name='site_root' value='' />
+        <param name='name' value='MoM2025W12-PrecipitationAnomalies/MoM2025W12' />
+        <param name='tabs' value='no' />
+        <param name='toolbar' value='yes' />
+        <param name='static_image' value='https://public.tableau.com/static/images/Mo/MoM2025W12-PrecipitationAnomalies/MoM2025W12/1.png' />
+        <param name='animate_transition' value='yes' />
+        <param name='display_static_image' value='yes' />
+        <param name='display_spinner' value='yes' />
+        <param name='display_overlay' value='yes' />
+        <param name='display_count' value='yes' />
+        <param name='language' value='en-US' />
+      </object>
+    </div>
+
+    <script type='text/javascript'>                    
+      var divElement = document.getElementById('viz1744753075990');                    
+      var vizElement = divElement.getElementsByTagName('object')[0];                    
+      if (divElement.offsetWidth > 800) { 
+        vizElement.style.width = '1440px'; 
+        vizElement.style.height = '827px'; 
+      } else if (divElement.offsetWidth > 500) { 
+        vizElement.style.width = '1440px'; 
+        vizElement.style.height = '827px'; 
+      } else { 
+        vizElement.style.width = '100%'; 
+        vizElement.style.height = '827px'; 
+      }                     
+      var scriptElement = document.createElement('script');                    
+      scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    
+      vizElement.parentNode.insertBefore(scriptElement, vizElement);                
+    </script>
+  </div>
+
+  <div class="game-section" id="game">
+    <h2>Try Out My Snake Game</h2>
+    <p>Here’s a simple JavaScript game I coded with help from AI. See how long you can survive while collecting food as the snake grows longer!</p>
+    <a href="game.html" class="btn-link">🎮 Play the Game</a>
+  </div>
+
+  <div class="back-to-top">
+    <a href="#top">⬆ Back to Top</a>
+  </div>
+
+</body>
+</html>
